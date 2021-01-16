@@ -1,0 +1,91 @@
+/* seccion inicio */
+.navancho {
+  height: 80px;
+}
+
+.inicio {
+  background-image: url(/multimedia/fondoinicio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.divbotoninicio {
+  width: 200px;
+  margin-left: 50px;
+}
+
+/* seccion menu */
+.menuGaleria {
+  margin: 25px;
+}
+
+.contenedorMenu {
+  margin-left: 150px;
+}
+
+.contenedorMenu > div:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  background-color: rgba(212, 20, 20, 0.781);
+}
+
+.bg-bodysecciones {
+  background-image: url(/multimedia/fondosecciones.jpg);
+}
+
+.seccionMenu__tarjeta {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* seccion nosotros */
+.contenedorNosotros__texto {
+  color: white;
+}
+
+.fotosnosotros {
+  width: 300px;
+  height: 400px;
+  border-radius: 5%;
+}
+
+/* seccion contacto */
+.contenedorFormulario {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.botonFormulario {
+  margin-top: 40px;
+  margin-left: 160px;
+}
+
+.contenedorFormulario__Entradas {
+  margin: 10px;
+}
+
+/* medias */
+@media (max-width: 767px) {
+  nav {
+    z-index: 1;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .inicio {
+    background-image: url(/multimedia/fondoinicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .fuenteMoviles {
+    font-size: 15px;
+  }
+  .botonMoviles {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,370 @@
+/* seccion inicio */
+.navancho {
+    height: 80px;
+
+}
+.estilonav li:hover{
+  background-color:rgba(212, 20, 20, 0.781) ;
+}
+.inicio {
+    background-image: url(../multimedia/fondoinicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
+.divbotoninicio{
+    width: 200px;
+    margin-left: 50px;
+}
+.botoniniciotexto{
+  text-decoration: none;
+}
+.fuenteinicioh1{
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  margin-top: 40px;
+}
+.fuentetaglio{
+  font-family: 'Lobster', cursive;
+}
+/*bg secciones*/
+.bg-bodysecciones {
+  background-image: url(../multimedia/fondoseccionesfinal.jpg); }
+
+  /* seccion menu */
+.menuGaleria {
+    margin: 25px; }
+
+.contenedorMenu {
+    margin-left: 150px; }
+
+.contenedorMenu > div:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgba(212, 20, 20, 0.781); }
+
+
+
+.seccionMenu__tarjeta {
+        background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.card-img-top{
+  height: 200px;
+  width: 260px;
+  margin-top: 10px;
+}
+.btn-primary{
+  background-color: rgba(212, 20, 20, 0.781);
+  border:none;
+}
+.btn-primary:hover{
+  background-color: black;
+}
+/* seccion nosotros */
+.contenedorNosotros__texto {
+    color: white;
+    width: 900px; 
+    margin-left: 200px; 
+    margin-top: 15px;
+}
+
+.fotosnosotros{
+width: 300px;
+height: 400px;
+border-radius: 5%;
+}
+
+/* seccion contacto */
+.contenedorFormulario {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 700px;
+    height: 350px;
+    margin-top: 110px;
+    margin-bottom: 190px;
+    margin-left: -180px;
+    
+    
+  }
+  
+  .botonFormulario {
+    margin-top: 10px;
+    margin-left: 70px; }
+  
+.contenedorFormulario__Entradas {
+    margin-left: 60px; 
+    margin-bottom: 20px;
+}
+.redesiconos{
+  margin-top: 120px;
+  margin-bottom: 190px;
+ 
+}
+.listacontacto > li{
+list-style: none;
+font-size: 20px;
+}
+/* seccion carrito*/
+.h1carrito{
+  margin-bottom: 450px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+/* medias */
+@media (min-width:319px) and (max-width:426px){
+.collapse{
+  background-color: rgba(0, 0, 0, 0.89);
+  z-index: 1;
+  height: 280px ;
+}
+
+  .inicio{
+    background-image: url(../multimedia/fondoinicio.jpg);
+    background-size: 100vh;
+    background-repeat: repeat ;
+  }
+  a > .logoinicio{
+    width: 45px;
+    height: 45px;
+  }
+  .fuenteMoviles{
+    font-size: 30px;
+  }
+ div > button > a >{
+    font-size: 10px;
+  }
+  .botonMoviles{
+    width:140px ;
+    height: 40px;
+    margin-left: 5px;
+}
+  .botoniniciotexto{
+    font-size: 18px;
+    
+  }
+  /* seccion menu*/
+  .seccionMenu__encabezado{
+    margin-left: 170px;
+  }
+  .seccionMenu{
+   width: 500px;
+    margin-left: -170px;
+  }
+  .card-img-top{
+    margin-left: -5px;
+  }
+  /* seccion nosotros*/
+  .contenedorNosotros__parrafo{
+    margin-left: -190px;
+  }
+  .fotosnosotros{
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+  }
+  /* seccion contacto*/
+  .contenedorFormulario{
+    width: 300px;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  .contenedorFormulario__Entradas{
+    margin-left: 5px;
+  }
+  .botonFormulario{
+    margin-left: 20px;
+  }
+}
+@media (min-width:360px) and (max-width:375px){
+  .seccionMenu{
+    margin-left: -145px;
+  }
+  .fotosnosotros{
+    margin-left: 50px;
+  }
+  .contenedorFormulario{
+    margin-left: 20px;
+  }
+  .h5ubicacion{
+    margin-left: -152px;
+  }
+}
+@media (min-width:376px) and (max-width:425px) {
+ .seccionMenu{
+   margin-left: -120px;
+ }
+ .fotosnosotros{
+  margin-left: 70px;
+}
+.contenedorFormulario{
+  margin-left: 30px;
+}
+.h5ubicacion{
+  margin-left: -152px;
+}
+}
+@media (min-width:426px) and (max-width:768px){
+  .collapse{
+    background-color: rgba(0, 0, 0, 0.89);
+    z-index: 1;
+    height: 280px ;
+  }
+  .inicio{
+    background-image: url(../multimedia/fondoinicio.jpg);
+    background-size: 100%;
+    background-repeat: repeat ;
+  }
+  .h1inicio{
+    margin-left: -40px;
+  }
+   /* seccion menu*/
+   .seccionMenu__encabezado{
+    margin-left: 170px;
+  }
+  .seccionMenu{
+   width: 900px;
+   margin-left: -130px;
+  }
+  .card-img-top{
+    margin-left: 8px;
+  }
+  /* seccion nosotros*/
+  .contenedorNosotros__parrafo{
+    margin-left: -100px;
+    width: 600px;
+  }
+  .fotosnosotros{
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+  .contenedorfotosnosotros{
+    width: 680px;
+    margin-left: -70px;
+  }
+   /* seccion contacto*/
+   .contenedorFormulario{
+    width: 600px;
+    margin-left: 40px;
+    margin-top: -50px;
+  }
+  .contenedorFormulario__Entradas{
+    margin-left: 5px;
+  }
+  .botonFormulario{
+    margin-left: 20px;
+  }
+  .redesiconos{
+    margin-left: 170px;
+  }
+  .h1contacto{
+    margin-top: 20px;
+  }
+  .h5ubicacion{
+    margin-left: -152px;
+  }
+  .ubicaciontexto{
+    margin-left: 250px;
+  }
+}
+@media (min-width:769px) and (max-width:1024px){
+  /* seccion menu*/
+  .seccionMenu__encabezado{
+    margin-left: -5px;
+  }
+  .seccionMenu{
+   width: 1300px;
+   margin-left: -150px;
+   .card-img-top{
+    margin-left: -5px;
+  }
+  }
+    /* seccion nosotros*/
+    .contenedorNosotros__parrafo{
+      margin-left: -100px;
+      width: 900px;
+    }
+    .contenedorfotosnosotros{
+      width: 980px;
+      margin-left: -90px;
+      margin-bottom: 450px;
+    }
+     /* seccion contacto*/
+   .contenedorFormulario{
+    width: 600px;
+    margin-bottom: 450px;
+  }
+
+}
+@media (min-width:1425px) and (max-width:1440px){
+  .card-img-top{
+    margin-left: 15px;
+  }
+}
+@media (min-width:1441px) and (max-width:2560px){
+  .fuentetaglio{
+    font-size: 80px;
+  }
+  .fuenteinicioh1{
+    font-size: 100px;
+  }
+  .botonMoviles{
+    width:400px;
+    height: 100px;
+    margin-left: -135px;
+}
+  .botoniniciotexto{
+    font-size: 50px;
+    
+  }
+  /*seccion menu*/
+  .seccionMenu__encabezado{
+    font-size: 50px;
+  }
+  .card-text {
+    font-size: 30px;
+  }
+  .card-title{
+    font-size: 45px;
+  }
+ .botoncarrito{
+   width: 200px;
+  height: 50px;
+  font-size: 25px;
+  }
+  .card-img-top{
+    width: 450px;
+    height: 300px;
+    margin-left: 40px;
+  }
+  .seccionMenu{
+    margin-left:150px ;
+  }
+  .seccionMenu__encabezado{
+    margin-left: -170px;
+  }
+   /* seccion nosotros*/
+   .contenedorNosotros__parrafo{
+    margin-left: 330px;
+    width: 2000px;
+  }
+.contenedornosotros{
+  margin-right: 540px;
+}
+.contenedorfotosnosotros{
+  width: 1800px;
+  margin-left: 200px;
+  margin-bottom: 450px;
+  margin-top: 150px;
+}
+.fotosnosotros{
+  width: 500px;
+  height: 650px;
+}
+.contenedorNosotros__texto{
+  font-size: 30px;
+  width: 1500px;
+}
+}
